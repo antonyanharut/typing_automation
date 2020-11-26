@@ -1,0 +1,1 @@
+[32mINFO    [0m WDM:logger.py:24 Driver [/home/harut/.wdm/drivers/geckodriver/linux64/v0.28.0/geckodriver] found in cache

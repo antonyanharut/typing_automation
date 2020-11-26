@@ -1,0 +1,29 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "teacher-order_page_test",
+      "children" : [ {
+        "name" : "TestTeacherCurriculumPage",
+        "children" : [ {
+          "name" : "Click \"Go Premium!\" on the top of the page. Choose the following:\n- 10 seats\n- 3 year\n- No start date\n- Enter anything for the Billing Contact Info\nGenerate the price quote",
+          "uid" : "6f9a8aada14227a2",
+          "parentUid" : "7323a0afa10d629b8de378022b5f4c22",
+          "status" : "passed",
+          "time" : {
+            "start" : 1606407008079,
+            "stop" : 1606407012916,
+            "duration" : 4837
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7323a0afa10d629b8de378022b5f4c22"
+      } ],
+      "uid" : "c29d8c4d5950a606b615a922d80c7849"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ]
+}

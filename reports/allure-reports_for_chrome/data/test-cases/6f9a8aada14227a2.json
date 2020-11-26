@@ -1,0 +1,1125 @@
+{
+  "uid" : "6f9a8aada14227a2",
+  "name" : "Click \"Go Premium!\" on the top of the page. Choose the following:\n- 10 seats\n- 3 year\n- No start date\n- Enter anything for the Billing Contact Info\nGenerate the price quote",
+  "fullName" : "tests.teacher-order_page_test.TestTeacherCurriculumPage#test_make_order",
+  "historyId" : "bde95aab15eb2589d1d3aad515e31c59",
+  "time" : {
+    "start" : 1606407008079,
+    "stop" : 1606407012916,
+    "duration" : 4837
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_driver",
+    "time" : {
+      "start" : 1606407001519,
+      "stop" : 1606407002994,
+      "duration" : 1475
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Load the 'teacher/login' page.",
+      "time" : {
+        "start" : 1606407002998,
+        "stop" : 1606407004563,
+        "duration" : 1565
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Wait until ('id', 'form-ele-username') element to be located",
+      "time" : {
+        "start" : 1606407004563,
+        "stop" : 1606407004581,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "('id', 'form-ele-username')"
+      }, {
+        "name" : "time_out",
+        "value" : "20"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Create a new teacher account using the APIs.",
+      "time" : {
+        "start" : 1606407004581,
+        "stop" : 1606407005826,
+        "duration" : 1245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Login to Test Tester`s account",
+      "time" : {
+        "start" : 1606407005826,
+        "stop" : 1606407008078,
+        "duration" : 2252
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Write `'test55tester5744@yopmail.com'` email address into the `Email` field of `Teacher Login` page",
+        "time" : {
+          "start" : 1606407005826,
+          "stop" : 1606407005948,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email_address",
+          "value" : "'test55tester5744@yopmail.com'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click on the `Next` button of `Teacher Login` page",
+        "time" : {
+          "start" : 1606407005948,
+          "stop" : 1606407006533,
+          "duration" : 585
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Wait until ('id', 'form-ele-password') element to be located",
+          "time" : {
+            "start" : 1606407006000,
+            "stop" : 1606407006533,
+            "duration" : 533
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('id', 'form-ele-password')"
+          }, {
+            "name" : "time_out",
+            "value" : "20"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Write `'Tester123'` password into the `Password` field of `Teacher Login` page",
+        "time" : {
+          "start" : 1606407006533,
+          "stop" : 1606407006584,
+          "duration" : 51
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "'Tester123'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click on the `Log In` button of `Teacher Login` page",
+        "time" : {
+          "start" : 1606407006585,
+          "stop" : 1606407008078,
+          "duration" : 1493
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Wait until `Teacher Dashboard` page to be loaded.",
+          "time" : {
+            "start" : 1606407006638,
+            "stop" : 1606407008078,
+            "duration" : 1440
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Wait until ('xpath', \"//div[contains(@class,'mr-3') ]/div[1]\") element to be located",
+            "time" : {
+              "start" : 1606407006638,
+              "stop" : 1606407008078,
+              "duration" : 1440
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "('xpath', \"//div[contains(@class,'mr-3') ]/div[1]\")"
+            }, {
+              "name" : "time_out",
+              "value" : "20"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "teacher_name",
+          "value" : "'Test Tester'"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Make order with `10` students seats, `3` term, 515454545454 telephone, Street 1 address, Goris city, N/A state, Armenia country and 3204 zip",
+      "time" : {
+        "start" : 1606407008079,
+        "stop" : 1606407012764,
+        "duration" : 4685
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on `Go Premium` button",
+        "time" : {
+          "start" : 1606407008079,
+          "stop" : 1606407008759,
+          "duration" : 680
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Wait until ('xpath', \"//h2[text() = 'License Details']/ancestor::div[contains(@class,'relative') and contains(@class,'card')]\") element to be located",
+          "time" : {
+            "start" : 1606407008181,
+            "stop" : 1606407008758,
+            "duration" : 577
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//h2[text() = 'License Details']/ancestor::div[contains(@class,'relative') and contains(@class,'card')]\")"
+          }, {
+            "name" : "time_out",
+            "value" : "20"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify the `of Student Seats` field is present",
+        "time" : {
+          "start" : 1606407008759,
+          "stop" : 1606407008847,
+          "duration" : 88
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Checking ('id', 'form-ele-quantity_annual') element is present",
+          "time" : {
+            "start" : 1606407008759,
+            "stop" : 1606407008847,
+            "duration" : 88
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('id', 'form-ele-quantity_annual')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify the `Term(In Years)` select box is present",
+        "time" : {
+          "start" : 1606407008847,
+          "stop" : 1606407008927,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Checking ('id', 'form-ele-term') element is present",
+          "time" : {
+            "start" : 1606407008847,
+            "stop" : 1606407008927,
+            "duration" : 80
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('id', 'form-ele-term')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify the `Continue To Billing Info` button is present",
+        "time" : {
+          "start" : 1606407008927,
+          "stop" : 1606407008958,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Checking ('xpath', \"//button[contains(@class, 'js-submit') and contains(text(), 'Continue to Billing')]\") element is present",
+          "time" : {
+            "start" : 1606407008927,
+            "stop" : 1606407008958,
+            "duration" : 31
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//button[contains(@class, 'js-submit') and contains(text(), 'Continue to Billing')]\")"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type '10' seats count into the `of Student Seats` field",
+        "time" : {
+          "start" : 1606407008958,
+          "stop" : 1606407009049,
+          "duration" : 91
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "seats",
+          "value" : "'10'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Select '3' from the `Term(In Year)` select box",
+        "time" : {
+          "start" : 1606407009049,
+          "stop" : 1606407009114,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "'3'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click on `Continue To Billing Info` button",
+        "time" : {
+          "start" : 1606407009114,
+          "stop" : 1606407009745,
+          "duration" : 631
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Wait until ('xpath', \"//button[contains(@class, 'js-submit') and contains(text(), 'Continue to Billing')]\") element to be invisible",
+          "time" : {
+            "start" : 1606407009174,
+            "stop" : 1606407009727,
+            "duration" : 553
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//button[contains(@class, 'js-submit') and contains(text(), 'Continue to Billing')]\")"
+          }, {
+            "name" : "time_out",
+            "value" : "20"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Wait until ('xpath', \"//h2[text() = 'Billing Contact Info']/ancestor::div[contains(@class,'relative') and contains(@class,'card')]\") element to be located",
+          "time" : {
+            "start" : 1606407009727,
+            "stop" : 1606407009745,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//h2[text() = 'Billing Contact Info']/ancestor::div[contains(@class,'relative') and contains(@class,'card')]\")"
+          }, {
+            "name" : "time_out",
+            "value" : "20"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify the `Address` field is present",
+        "time" : {
+          "start" : 1606407009745,
+          "stop" : 1606407009766,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Checking ('id', 'form-ele-address1') element is present",
+          "time" : {
+            "start" : 1606407009745,
+            "stop" : 1606407009766,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('id', 'form-ele-address1')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify the `City` field is present",
+        "time" : {
+          "start" : 1606407009766,
+          "stop" : 1606407009791,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Checking ('id', 'form-ele-city') element is present",
+          "time" : {
+            "start" : 1606407009766,
+            "stop" : 1606407009791,
+            "duration" : 25
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('id', 'form-ele-city')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify the `Country` select box is present",
+        "time" : {
+          "start" : 1606407009791,
+          "stop" : 1606407009812,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Checking ('id', 'form-ele-country') element is present",
+          "time" : {
+            "start" : 1606407009791,
+            "stop" : 1606407009812,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('id', 'form-ele-country')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify the `Generate Price Quote` button is present",
+        "time" : {
+          "start" : 1606407009812,
+          "stop" : 1606407009833,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Checking ('xpath', \"//button[contains(text(),'Generate Price Quote')]\") element is present",
+          "time" : {
+            "start" : 1606407009813,
+            "stop" : 1606407009833,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//button[contains(text(),'Generate Price Quote')]\")"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify the `State` select box is present",
+        "time" : {
+          "start" : 1606407009834,
+          "stop" : 1606407009852,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Checking ('id', 'form-ele-state') element is present",
+          "time" : {
+            "start" : 1606407009834,
+            "stop" : 1606407009852,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('id', 'form-ele-state')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify the `Telephone` field is present",
+        "time" : {
+          "start" : 1606407009852,
+          "stop" : 1606407009870,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Checking ('id', 'form-ele-phone') element is present",
+          "time" : {
+            "start" : 1606407009852,
+            "stop" : 1606407009870,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('id', 'form-ele-phone')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify the `Zip Code` field is present",
+        "time" : {
+          "start" : 1606407009870,
+          "stop" : 1606407009889,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Checking ('id', 'form-ele-postal') element is present",
+          "time" : {
+            "start" : 1606407009870,
+            "stop" : 1606407009889,
+            "duration" : 19
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('id', 'form-ele-postal')"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type '515454545454' telephone into the `Telephone` field",
+        "time" : {
+          "start" : 1606407009890,
+          "stop" : 1606407009947,
+          "duration" : 57
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "telephone",
+          "value" : "'515454545454'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type 'Street 1' address into the `Address` field",
+        "time" : {
+          "start" : 1606407009947,
+          "stop" : 1606407010002,
+          "duration" : 55
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "address",
+          "value" : "'Street 1'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type 'Goris' city into the `City` field",
+        "time" : {
+          "start" : 1606407010002,
+          "stop" : 1606407010058,
+          "duration" : 56
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "city",
+          "value" : "'Goris'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Select 'N/A' from the `State` select box",
+        "time" : {
+          "start" : 1606407010058,
+          "stop" : 1606407010127,
+          "duration" : 69
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "state",
+          "value" : "'N/A'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Select 'Armenia' from the `Country` select box",
+        "time" : {
+          "start" : 1606407010128,
+          "stop" : 1606407010165,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "country",
+          "value" : "'Armenia'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Type '3204' zip code into the `Zip Code` field",
+        "time" : {
+          "start" : 1606407010166,
+          "stop" : 1606407010215,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "zip",
+          "value" : "'3204'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Submit",
+        "time" : {
+          "start" : 1606407010216,
+          "stop" : 1606407012744,
+          "duration" : 2528
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Wait until the page url contains 'teacher/order'",
+          "time" : {
+            "start" : 1606407010247,
+            "stop" : 1606407012744,
+            "duration" : 2497
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "'teacher/order'"
+          }, {
+            "name" : "time_out",
+            "value" : "20"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Wait until ('class name', 'js-loading-animation') element to be invisible",
+        "time" : {
+          "start" : 1606407012744,
+          "stop" : 1606407012751,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('class name', 'js-loading-animation')"
+        }, {
+          "name" : "time_out",
+          "value" : "20"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Wait until ('xpath', \"//h1[text() = 'Price Quote']\") element to be located",
+        "time" : {
+          "start" : 1606407012751,
+          "stop" : 1606407012764,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', \"//h1[text() = 'Price Quote']\")"
+        }, {
+          "name" : "time_out",
+          "value" : "20"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 37,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify the `Start Date Of Payment` present",
+      "time" : {
+        "start" : 1606407012764,
+        "stop" : 1606407012789,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking ('xpath', \"//table[contains(@class,'table--striped')]/tbody/tr[1]/td[4]\") element is present",
+        "time" : {
+          "start" : 1606407012764,
+          "stop" : 1606407012789,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', \"//table[contains(@class,'table--striped')]/tbody/tr[1]/td[4]\")"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify the `Start Date Of Payment` present",
+      "time" : {
+        "start" : 1606407012789,
+        "stop" : 1606407012807,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking ('xpath', \"//table[contains(@class,'table--striped')]/tbody/tr[1]/td[4]\") element is present",
+        "time" : {
+          "start" : 1606407012789,
+          "stop" : 1606407012807,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', \"//table[contains(@class,'table--striped')]/tbody/tr[1]/td[4]\")"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify the `Term` present",
+      "time" : {
+        "start" : 1606407012807,
+        "stop" : 1606407012842,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking ('xpath', \"//table[contains(@class,'table--striped')]/tbody/tr[1]/td[3]\") element is present",
+        "time" : {
+          "start" : 1606407012807,
+          "stop" : 1606407012842,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', \"//table[contains(@class,'table--striped')]/tbody/tr[1]/td[3]\")"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify the text of `Start Date Of Payment` is 'Upon Payment'",
+      "time" : {
+        "start" : 1606407012842,
+        "stop" : 1606407012866,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected_text",
+        "value" : "'Upon Payment'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify the text of `# Student Seats` is '10'",
+      "time" : {
+        "start" : 1606407012866,
+        "stop" : 1606407012893,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected_text",
+        "value" : "'10'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify the text of `Term` is '3 Years'",
+      "time" : {
+        "start" : 1606407012893,
+        "stop" : 1606407012916,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected_text",
+        "value" : "'3 Years'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f124376d8b39f22e",
+      "name" : "log",
+      "source" : "f124376d8b39f22e.txt",
+      "type" : "text/plain",
+      "size" : 283
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 58,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_driver::0",
+    "time" : {
+      "start" : 1606407012917,
+      "stop" : 1606407012969,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Upgrade"
+  }, {
+    "name" : "feature",
+    "value" : "Teacher"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "tag",
+    "value" : "upgrade"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('get_driver')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "teacher-order_page_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTeacherCurriculumPage"
+  }, {
+    "name" : "host",
+    "value" : "MC-0325"
+  }, {
+    "name" : "thread",
+    "value" : "11916-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.teacher-order_page_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "A119:F119",
+    "url" : "https://docs.google.com/spreadsheets/d/1P54UmzfJggGuXzZV4zMfZ1I6Isv8P5Ac0a_F_u1Deyg/edit?ts=5fb694ba#gid=763370721&range=A88:F88",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "upgrade", "@pytest.mark.usefixtures('get_driver')" ]
+  },
+  "source" : "6f9a8aada14227a2.json",
+  "parameterValues" : [ ]
+}

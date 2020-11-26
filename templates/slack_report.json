@@ -1,0 +1,11 @@
+{
+        "text": "Test Automation Report | $BROWSER | $DATE",
+        "icon_emoji": "$EMOJI",
+        "attachments": [
+            {
+                "color": "$COLOR",
+                "text": "PLATFORM: $PLATFORM\nDURATION: $DURATION\nTOTAL TESTS: $TOTAL\nTEST STATUS: Passed=$PASSED Failed=$FAILED Skipped=$SKIPPED Error=$ERROR",
+                "attachment_type": "default"
+            }
+        ]
+    }

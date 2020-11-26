@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MC-0325",
+    "children" : [ {
+      "name" : "11916-MainThread",
+      "children" : [ {
+        "name" : "Click \"Go Premium!\" on the top of the page. Choose the following:\n- 10 seats\n- 3 year\n- No start date\n- Enter anything for the Billing Contact Info\nGenerate the price quote",
+        "uid" : "6f9a8aada14227a2",
+        "parentUid" : "b0e5444cc4c4da3679760a9bc41ec66f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606407008079,
+          "stop" : 1606407012916,
+          "duration" : 4837
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0e5444cc4c4da3679760a9bc41ec66f"
+    } ],
+    "uid" : "f0962cc9d4a9ad1ff751bdfe5da14869"
+  } ]
+}
